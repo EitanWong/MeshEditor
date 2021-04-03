@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_MeshEditor.-1018842299.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="MeshEditor" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Base" t="Include">
+                <e p="MeshEditorItem.cs" t="Include" />
+                <e p="MeshEditorPage.cs" t="Include" />
+                <e p="Utilities" t="Include">
+                  <e p="MeshEditorStylesUtility.cs" t="Include" />
+                  <e p="MeshEditorUtility.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Window" t="Include">
+                <e p="EditorWindow" t="Include">
+                  <e p="MeshEditorPreference.cs" t="Include" />
+                  <e p="MeshEditorWindow.cs" t="Include" />
+                </e>
+                <e p="Page" t="Include">
+                  <e p="Internal" t="Include">
+                    <e p="MeshBooleanPage.cs" t="Include" />
+                    <e p="MeshBreakerPage.cs" t="Include" />
+                    <e p="MeshEditPage.cs" t="Include" />
+                    <e p="MeshSimplifierPage.cs" t="Include" />
+                    <e p="MeshVoxelizerPage.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Modules" t="Include">
+            <e p="Internal" t="Include">
+              <e p="MeshBoolean" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="BooleanExample.cs" t="Include" />
+                  <e p="MeshBooleanOperator.cs" t="Include" />
+                  <e p="Net3DBool" t="Include">
+                    <e p="Core" t="Include">
+                      <e p="BooleanModeller.cs" t="Include" />
+                      <e p="Bound.cs" t="Include" />
+                      <e p="Face.cs" t="Include" />
+                      <e p="Line.cs" t="Include" />
+                      <e p="Object3D.cs" t="Include" />
+                      <e p="Plane.cs" t="Include" />
+                      <e p="Ray.cs" t="Include" />
+                      <e p="Segment.cs" t="Include" />
+                      <e p="Solid.cs" t="Include" />
+                      <e p="Vector3Double.cs" t="Include" />
+                      <e p="Vertex.cs" t="Include" />
+                    </e>
+                    <e p="Extends" t="Include">
+                      <e p="FaceF.cs" t="Include" />
+                      <e p="Net3dBoolExtend.cs" t="Include" />
+                    </e>
+                    <e p="Tools" t="Include">
+                      <e p="CollectionPool.cs" t="Include" />
+                      <e p="ObjectPool.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+              <e p="MeshBreaker" t="Include">
+                <e p="EzySlice" t="Include">
+                  <e p="Framework" t="Include">
+                    <e p="IntersectionResult.cs" t="Include" />
+                    <e p="Intersector.cs" t="Include" />
+                    <e p="Line.cs" t="Include" />
+                    <e p="Plane.cs" t="Include" />
+                    <e p="TextureRegion.cs" t="Include" />
+                    <e p="Triangle.cs" t="Include" />
+                    <e p="Triangulator.cs" t="Include" />
+                  </e>
+                  <e p="SlicedHull.cs" t="Include" />
+                  <e p="Slicer.cs" t="Include" />
+                  <e p="SlicerExtensions.cs" t="Include" />
+                </e>
+              </e>
+              <e p="MeshEdit" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="Base" t="Include">
+                    <e p="MeshEditEdge.cs" t="Include" />
+                    <e p="MeshEditFace.cs" t="Include" />
+                    <e p="MeshEditVertex.cs" t="Include" />
+                  </e>
+                  <e p="Enum" t="Include">
+                    <e p="MeshEditMode.cs" t="Include" />
+                    <e p="MeshEditTool.cs" t="Include" />
+                  </e>
+                  <e p="Utilities" t="Include">
+                    <e p="MeshEditUtility.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="MeshVoxelizer" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Box3.cs" t="Include" />
+                  <e p="DrawLines.cs" t="Include" />
+                  <e p="MeshRayTracer.cs" t="Include" />
+                  <e p="MeshVoxelizer.cs" t="Include" />
+                  <e p="VoxelizerDemo.cs" t="Include" />
+                  <e p="VoxelMeshBuilder.cs" t="Include" />
+                </e>
+              </e>
+              <e p="UnityMeshSimplifier" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="LODGeneratorHelperEditor.cs" t="Include" />
+                  <e p="SerializedPropertyExtensions.cs" t="Include" />
+                  <e p="Whinarn.UnityMeshSimplifier.Editor.asmdef" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="BlendShape.cs" t="Include" />
+                  <e p="Components" t="Include">
+                    <e p="LODBackupComponent.cs" t="Include" />
+                    <e p="LODGeneratorHelper.cs" t="Include" />
+                  </e>
+                  <e p="Internal" t="Include">
+                    <e p="BlendShapeContainer.cs" t="Include" />
+                    <e p="BlendShapeFrameContainer.cs" t="Include" />
+                    <e p="BorderVertex.cs" t="Include" />
+                    <e p="Ref.cs" t="Include" />
+                    <e p="Triangle.cs" t="Include" />
+                    <e p="UVChannels.cs" t="Include" />
+                    <e p="Vertex.cs" t="Include" />
+                  </e>
+                  <e p="LODGenerator.cs" t="Include" />
+                  <e p="LODLevel.cs" t="Include" />
+                  <e p="Math" t="Include">
+                    <e p="MathHelper.cs" t="Include" />
+                    <e p="SymmetricMatrix.cs" t="Include" />
+                    <e p="Vector3d.cs" t="Include" />
+                  </e>
+                  <e p="MeshCombiner.cs" t="Include" />
+                  <e p="MeshSimplifier.cs" t="Include" />
+                  <e p="SimplificationOptions.cs" t="Include" />
+                  <e p="Utility" t="Include">
+                    <e p="MeshUtils.cs" t="Include" />
+                    <e p="ResizableArray.cs" t="Include" />
+                  </e>
+                  <e p="Whinarn.UnityMeshSimplifier.Runtime.asmdef" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="MeshEditor.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/Bin" t="ExcludeRecursive" />
+      <e p="Whinarn.UnityMeshSimplifier.Editor.csproj" t="IncludeRecursive" />
+      <e p="Whinarn.UnityMeshSimplifier.Runtime.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a97b494-2663-42ed-aab6-bb3150e0e0f9" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/33/a6bd9234/SceneView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/43/b085d13b/SettingsProviderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnityExtensions/Assets/MeshEditor/MeshMaker/Editor/MeshMakerEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3A0880CB-71E2-41F2-9EE0-118ED047B256/90/e67be9e5/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditorPreference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/75/ee6062dd/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FDFECBB5-B0AA-4348-B3BD-0514515D2896/86/f4d95b1e/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F39A67F9-66FA-462E-BCDB-FC051C2F0FEC/a3/e47dcaff/GUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/59/bc0de9d3/SettingsProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F39A67F9-66FA-462E-BCDB-FC051C2F0FEC/0a/80873806/GUILayoutOption.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/123.cs" />
+      <option value="$PROJECT_DIR$/Assets/test.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorStyle.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorStyle.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorUtility.Styles.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorUtility.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshEditPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshSimplifierPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshVoxelizerPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshBooleanPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditPreference.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshBreakerPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorStylesUtility.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditorWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditorPreference.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1qNEg21ele4KI5wj8oHt0zN888j" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
