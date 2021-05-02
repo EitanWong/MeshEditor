@@ -8,16 +8,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/33/a6bd9234/SceneView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/43/b085d13b/SettingsProviderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../UnityExtensions/Assets/MeshEditor/MeshMaker/Editor/MeshMakerEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3A0880CB-71E2-41F2-9EE0-118ED047B256/90/e67be9e5/Random.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditorPreference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/75/ee6062dd/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FDFECBB5-B0AA-4348-B3BD-0514515D2896/86/f4d95b1e/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5D85F9E9-67E8-4ADF-8F4B-AD942EB1AC46/d4/0125b97d/EditorPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/SettingPage/Internal/MeshSimplifierSettingPage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Interface/LudiqGUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5D85F9E9-67E8-4ADF-8F4B-AD942EB1AC46/7b/5804db52/EditorWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F39A67F9-66FA-462E-BCDB-FC051C2F0FEC/a3/e47dcaff/GUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Configs/Internal/MeshBreakerConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DC11B65-201E-4C80-87D7-4414F502FAC9/9e/c97fae71/GUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/43/b085d13b/SettingsProviderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/75/ee6062dd/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/59/bc0de9d3/SettingsProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Modules/Internal/MeshBreaker/Scripts/ShatterExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Manager/MEDR_ConfigManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MEDR_SettingPage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F39A67F9-66FA-462E-BCDB-FC051C2F0FEC/0a/80873806/GUILayoutOption.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3A0880CB-71E2-41F2-9EE0-118ED047B256/90/e67be9e5/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Configs/Internal/MeshEditConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C2CC12A-836B-4398-90B2-03FF62F5F82D/2e/5ed6aa8f/Plane.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FDFECBB5-B0AA-4348-B3BD-0514515D2896/86/f4d95b1e/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DC11B65-201E-4C80-87D7-4414F502FAC9/ff/cf444aa3/GUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DC11B65-201E-4C80-87D7-4414F502FAC9/f6/e4fd5b12/GUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2696DAB0-3E39-4055-907D-8BA7B74FB50A/33/a6bd9234/SceneView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/SettingPage/Internal/MeshVoxelizerSettingPage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Configs/Internal/MeshSimplifierConfig.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -27,17 +40,45 @@
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorStyle.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorUtility.Styles.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorItem.cs" />
-      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorUtility.cs" />
-      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshEditPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshSimplifierPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshVoxelizerPage.cs" />
-      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshBooleanPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditPreference.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshBreakerPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorStylesUtility.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditorWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorUtility.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/Page/Internal/MeshBooleanPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorConfigPage.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/EditorWindow/MeshEditorPreference.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/SettingPage/Internal/MeshBreakerSettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Window/SettingPage/Internal/MeshEditSettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorSettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Manager/ConfigManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Manager/MEDRConfigManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/WindowPage/Internal/MeshEditPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MeshEditorInternalUtility.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MEDR_Internal_Utility.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MeshEditorConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MEDR_SettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Configs/Internal/MeshSimplifierConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Configs/Internal/MeshEditConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MEDR_Config.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Configs/Internal/MeshVoxelizerConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/WindowPage/Internal/MeshVoxelizerPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MEDR_StylesUtility.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/SettingPage/Internal/MeshVoxelizerSettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/SettingPage/Internal/MeshSimplifierSettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/SettingPage/Internal/MeshEditSettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/Utilities/MEDR_Utility.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Base/MEDR_Page.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/WindowPage/Internal/MeshSimplifierPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/EditorWindow/MeshEditorWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Configs/Internal/MeshBreakerConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/SettingPage/Internal/MeshBreakerSettingPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/WindowPage/Internal/MeshBreakerPage.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshEditor/Editor/Scripts/Windows/EditorWindow/MeshEditorPreference.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qNEg21ele4KI5wj8oHt0zN888j" />
@@ -47,16 +88,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3496708" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -66,6 +110,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -73,7 +118,7 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
