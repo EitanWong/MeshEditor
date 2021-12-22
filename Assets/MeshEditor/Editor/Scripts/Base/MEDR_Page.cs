@@ -1,10 +1,11 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base
+namespace TransformPro.MeshPro.MeshEditor.Editor.Scripts.Base
 {
     public abstract class MEDR_Page : UnityEditor.Editor
     {
@@ -20,6 +21,7 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base
         }
 
         public bool Open = false;
+         public Vector2 scrollViewPos;
         public string PageName = "NewMeshEditorPage";//页面名称
         public string PageToolTips;
         public Texture2D PageIcon;//页面图标
@@ -130,3 +132,4 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base
         #endregion
     }
 }
+#endif

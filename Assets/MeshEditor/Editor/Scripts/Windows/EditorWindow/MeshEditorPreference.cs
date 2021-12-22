@@ -1,16 +1,15 @@
-using System;
-using System.Collections;
+#if UNITY_EDITOR
 using System.Collections.Generic;
+using Extensions.MeshPro.MeshEditor.Editor.Scripts.Base.Utilities;
 using MeshEditor.Editor.Scripts.Base;
 using MeshEditor.Editor.Scripts.Base.Utilities;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
-using UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base;
+using TransformPro.MeshPro.MeshEditor.Editor.Scripts.Base;
 
 public class MeshEditorPreference : Editor
 {
-    private static string Version = "v0.1.1";
+    private static string Version = "v0.1.3";
     private static Vector2 scrollPositionSettingArea;
     private static Vector2 scrollPositionPageButtonArea;
     private static Vector2 scrollPositionTitle;
@@ -19,10 +18,38 @@ public class MeshEditorPreference : Editor
     private static int iconWidth;
 
     private static List<MEDR_SettingPage> settingPages = new List<MEDR_SettingPage>(); //配置页面
-    
+
     private static MEDR_SettingPage currentSelectPage; //当前选中ConfigPage
+
     
-#pragma warning disable 618
+#if UNITY_2019_1_OR_NEWER
+    [SettingsProvider]
+    public static SettingsProvider PreferenceView()
+    {
+        var provider = new SettingsProvider( "Preferences/UnityExtensions/MeshEditor", SettingsScope.User )
+        {
+            label = "网格模型编辑器",
+            guiHandler = ( searchText ) => {
+                GUI.skin.label.richText = true;
+                EditorGUIUtility.labelWidth = 150f;
+
+                InitSettingPage();
+                EditorGUILayout.BeginHorizontal();
+                DrawLeftAreaGUI();
+                DrawSettingGUIArea();
+                EditorGUILayout.EndHorizontal();
+                
+                // GUILayout.FlexibleSpace();
+                // GUILayout.Label( "版本 " + Version, EditorStyles.miniBoldLabel );
+                GUI.skin.label.richText = false;
+                EditorGUIUtility.labelWidth = 0f;
+            },
+            keywords = new HashSet<string>( new[] { "UnityEditormemo" } )
+        };
+        return provider;
+    }
+#else       
+ #pragma warning disable 618
     [PreferenceItem("UnityExtensions/MeshEditor")]
 #pragma warning restore 618
     public static void PreferencesGUI()
@@ -33,6 +60,8 @@ public class MeshEditorPreference : Editor
         DrawSettingGUIArea();
         EditorGUILayout.EndHorizontal();
     }
+#endif
+
 
     #region EditorBehaviour
 
@@ -80,9 +109,10 @@ public class MeshEditorPreference : Editor
         if (settingPages == null || settingPages.Count <= 0) return;
         foreach (var page in settingPages)
         {
-            if (GUILayout.Button(page.PageName,MEDR_StylesUtility.WarningOverlayStyle))
+            if (GUILayout.Button(page.PageName, MEDR_StylesUtility.WarningOverlayStyle))
                 currentSelectPage = page;
         }
+
         EditorGUILayout.EndVertical();
     }
 
@@ -104,3 +134,4 @@ public class MeshEditorPreference : Editor
 
     #endregion
 }
+#endif

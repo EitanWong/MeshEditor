@@ -1,13 +1,17 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
+using Extensions.MeshPro.MeshEditor.Editor.Scripts.Base.Utilities;
 using MeshEditor.Editor.Scripts.Base.Utilities;
+using TransformPro.MeshPro.MeshEditor.Editor.Scripts.Base;
 using UnityEditor;
 using UnityEngine;
-using UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base;
 using Object = UnityEngine.Object;
 
-
-namespace UnityExtensions.MeshPro.MeshEditor.Editor
+/*
+ * 网格模型编辑器主窗体
+ */
+namespace TransformPro.MeshPro.MeshEditor.Editor
 {
     public class MeshEditorWindow : EditorWindow
     {
@@ -18,6 +22,8 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
         private static List<MEDR_Page> editorPages = new List<MEDR_Page>(); //编辑器页面
         private static Vector2 scrollPos; //Scroll位置
         public static MeshEditorWindow window; //当前窗体
+
+        private static int lastCheckCount;
 
         #endregion
 
@@ -35,18 +41,10 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
         {
             // var width = 300;
             // var height = 500;
-            window = (MeshEditorWindow) EditorWindow.GetWindow(
-                typeof(MeshEditorWindow),
-                true,
-                "网格模型编辑器");
+            Texture2D icon = Resources.Load<Texture2D>("Textures/MeshEditorIcon");
+            window = (MeshEditorWindow) EditorWindow.GetWindow(typeof(MeshEditorWindow), true);
+            window.titleContent = new GUIContent("网格模型编辑器", icon, "网格模型编辑器");
             window.Focus();
-
-            editorPages = MEDR_Internal_Utility.GetAllReflectionClassIns<MEDR_Page>();//加载所有EditPage
-            foreach (var page in editorPages)
-            {
-                //page.ParentWindow = window;
-                window.OnWindowDisable += page.OnCloseWindowCallFromMainWindow;
-            }
         }
 
         #region EditorBehavior
@@ -59,9 +57,11 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
 
         void OnGUI()
         {
+            CheckAndLoadEditorPages();
             ExitWindowKeyboardCheck(); //检查退出快捷键
             DrawBasicMeshItemMenu(); //基本网格选择菜单
             DrawEditorPage();
+            CheckItemIsEmpty();
         }
 
         /// <summary>
@@ -80,9 +80,13 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
         private void OnDisable()
         {
             OnWindowDisable?.Invoke();
-            foreach (var page in editorPages)
+            if (window)
             {
-                window.OnWindowDisable -= page.OnCloseWindowCallFromMainWindow;
+                foreach (var page in editorPages)
+                {
+                    if (page)
+                        window.OnWindowDisable -= page.OnCloseWindowCallFromMainWindow;
+                }
             }
 
             CheckItems.Clear();
@@ -162,23 +166,28 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
 
             GUILayout.BeginArea(new Rect(position.width / 4, 0, position.width * (3f / 4f), position.height));
 
-
-            foreach (var page in editorPages)
+            EditorGUILayout.BeginVertical(MEDR_StylesUtility.FrameStyle);
+            for (int i = 0; i < editorPages.Count; i++)
             {
+                var page = editorPages[i];
                 page.Open = EditorGUILayout.BeginFoldoutHeaderGroup(page.Open,
                     new GUIContent(page.PageName, page.PageIcon, page.PageToolTips),
                     MEDR_StylesUtility.FoldStyle);
                 if (page.Open)
                 {
-                    EditorGUILayout.BeginVertical(MEDR_StylesUtility.FrameStyle);
                     if (CheckItems != null && CheckItems.Count > 0)
+                    {
+                        page.scrollViewPos =
+                            EditorGUILayout.BeginScrollView(page.scrollViewPos, MEDR_StylesUtility.FrameStyle);
                         page.UpdateGUI();
-                    EditorGUILayout.EndVertical();
+                        EditorGUILayout.EndScrollView();
+                    }
                 }
 
                 EditorGUILayout.EndFoldoutHeaderGroup();
             }
 
+            EditorGUILayout.EndVertical();
             GUILayout.EndArea();
         }
 
@@ -278,6 +287,38 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
 
         #region 内部方法
 
+        private void CheckItemIsEmpty()
+        {
+            if (lastCheckCount != CheckItems.Count)
+            {
+                if (CheckItems.Count <= 0)
+                {
+                    foreach (var page in editorPages)
+                    {
+                        page.OnCloseWindowCallFromMainWindow();
+                    }
+                }
+
+                lastCheckCount = CheckItems.Count;
+            }
+        }
+
+        private void CheckAndLoadEditorPages()
+        {
+            if (editorPages == null || editorPages.Count <= 0)
+            {
+                editorPages = MEDR_Internal_Utility.GetAllReflectionClassIns<MEDR_Page>(); //加载所有EditPage
+                if (window)
+                {
+                    foreach (var page in editorPages)
+                    {
+                        if (page)
+                            window.OnWindowDisable += page.OnCloseWindowCallFromMainWindow;
+                    }
+                }
+            }
+        }
+
         private void DropAreaGUI(float x, float y, float width, float height, Action DrawCallBack,
             Action<Object> DropCallBack, Action<Event> OnContextClick)
         {
@@ -323,7 +364,11 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
             if (Event.current.keyCode == KeyCode.Escape)
             {
                 var editorWindow = EditorWindow.mouseOverWindow;
+#if UNITY_2020_1_OR_NEWER
                 if (editorWindow && !editorWindow.docked && editorWindow == this)
+#else
+                if (editorWindow && !editorWindow && editorWindow == this)
+#endif
                 {
                     Close();
                     Event.current.keyCode = KeyCode.None;
@@ -474,3 +519,4 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor
         #endregion
     }
 }
+#endif

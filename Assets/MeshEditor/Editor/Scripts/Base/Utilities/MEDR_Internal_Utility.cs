@@ -1,17 +1,16 @@
-using System;
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
-using NUnit.Framework;
 using UnityEditor;
 using UnityEngine;
 
-namespace UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base
+namespace Extensions.MeshPro.MeshEditor.Editor.Scripts.Base.Utilities
 {
     public static class MEDR_Internal_Utility
     {
-        public static Assembly assembly => Assembly.Load("Assembly-CSharp");
-        public static Assembly assemblyEditor => Assembly.Load("Assembly-CSharp-Editor");
+        //public static Assembly assembly => Assembly.Load("Assembly-CSharp");
+        //public static Assembly assemblyEditor => Assembly.Load("Assembly-CSharp-Editor");
+        public static Assembly assemblyEditor => Assembly.Load("MeshEditor");
 
         /// <summary>
         /// 获取所有指定的反射类实例
@@ -59,3 +58,4 @@ namespace UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base
         }
     }
 }
+#endif

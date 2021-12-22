@@ -1,28 +1,27 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using N3dBoolExample;
-using Net3dBool;
+#if UNITY_EDITOR
+using Extensions.MeshPro.MeshEditor.Modules.Internal.MeshBoolean.Scripts;
 using UnityEditor;
 using UnityEngine;
-using UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base;
+using TransformPro.MeshPro.MeshEditor.Editor.Scripts.Base;
 
 public class MeshBooleanPage : MEDR_Page
 {
-
     private static GUIContent intersectionGUIContent;
     private static GUIContent unionGUIContent;
     private static GUIContent subtractionGUIContent;
+
     private void Awake()
     {
         PageName = "布尔运算";
-        PageIcon= Resources.Load<Texture2D>(EditorGUIUtility.isProSkin?"Textures/MeshBooleanWhite": "Textures/MeshBooleanBlack");
+        PageIcon = Resources.Load<Texture2D>(EditorGUIUtility.isProSkin
+            ? "Textures/MeshBooleanWhite"
+            : "Textures/MeshBooleanBlack");
         PageToolTips = "布尔运算工具\n进行模型的布尔运算";
-        intersectionGUIContent=new GUIContent("交集",Resources.Load<Texture2D>("Textures/Intersection"));
+        intersectionGUIContent = new GUIContent("交集", Resources.Load<Texture2D>("Textures/Intersection"));
         unionGUIContent = new GUIContent("并集", Resources.Load<Texture2D>("Textures/Union"));
         subtractionGUIContent = new GUIContent("补集", Resources.Load<Texture2D>("Textures/Subtraction"));
     }
-    
+
     protected override void OnGUI()
     {
         if (CheckFields.Count <= 1) return;
@@ -132,3 +131,4 @@ public class MeshBooleanPage : MEDR_Page
         Subtraction,
     }
 }
+#endif

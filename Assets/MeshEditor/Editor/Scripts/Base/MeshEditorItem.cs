@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnityExtensions.MeshPro.MeshEditor.Editor.Scripts.Base
+namespace TransformPro.MeshPro.MeshEditor.Editor.Scripts.Base
 {
     public class MeshEditorItem
     {

@@ -1,4 +1,4 @@
-namespace UnityExtensions.MeshPro.MeshFilterProEditor.Editor.Enum
+namespace TransformPro.MeshPro.MeshFilterProEditor.Editor.Enum
 {
     public enum MeshEditMode
     {
